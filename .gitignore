@@ -1,0 +1,61 @@
+# Documentation & internal notes
+*.md
+challenges.txt
+presentation.txt
+architecture.html
+
+# Scripts (dev helpers)
+*.sh
+dev.bat
+
+# Claude Code
+.claude/
+
+# Skills (internal)
+skills/
+
+# Tests
+backend/tests/
+
+# Environment & secrets
+.env
+.env.local
+frontend/.env.local
+
+# Test images
+backend/input/*
+!backend/input/.gitkeep
+
+# Logs
+*.log
+
+# Root assets (not needed in repo)
+Logo.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# EasyOCR model cache
+.EasyOCR/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

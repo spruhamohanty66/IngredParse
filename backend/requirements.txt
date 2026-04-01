@@ -1,0 +1,19 @@
+# IngredParse Backend — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# API framework
+fastapi==0.115.12
+uvicorn==0.34.0
+python-multipart==0.0.20
+
+# AI / OCR
+openai==1.68.2
+easyocr==1.7.2
+pillow==10.4.0
+
+# Database
+supabase==2.28.0
+
+# Utilities
+python-dotenv==1.0.1
+rapidfuzz==3.6.1
